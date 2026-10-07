@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caderno de estudos sobre dança, corporeidade e carimbó.">
+  <title>Caderno Vivo — Dança, corporeidade e carimbó</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-pattern" aria-hidden="true"></div>
+
+    <div class="container header-content">
+      <div>
+        <p class="eyebrow">Caderno Vivo</p>
+        <h1>Dança, corporeidade e carimbó</h1>
+        <p class="header-subtitle">
+          Guia de estudo e desafio autoral em estilo ENEM
+        </p>
+      </div>
+
+      <button
+        id="menu-button"
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+        aria-label="Abrir menu"
+      >
+        ☰
+      </button>
+
+      <nav id="main-navigation" class="main-navigation">
+        <a href="#caderno">Caderno</a>
+        <a href="#conteudo">Conteúdo</a>
+        <a href="#desafio">Desafio ENEM</a>
+        <a href="#resultado">Meu resultado</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Estudar também é movimentar ideias</p>
+
+          <h2>
+            O corpo, a dança e a cultura como formas de linguagem.
+          </h2>
+
+          <p>
+            Compreenda como os movimentos são construídos socialmente,
+            como a corporeidade relaciona corpo, mente e mundo e como o
+            carimbó expressa identidades, memórias, territórios e tradições.
+          </p>
+
+          <a class="button button-primary" href="#caderno">
+            Começar estudo
+          </a>
+        </div>
+
+        <div class="hero-symbols" aria-hidden="true">
+          <span>◈</span>
+          <span>○</span>
+          <span>◇</span>
+          <span>◌</span>
+          <span>◈</span>
+          <span>○</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="caderno" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Seu espaço de estudo</p>
+          <h2>Caderno de anotações</h2>
+          <p>
+            As anotações são salvas automaticamente neste navegador e
+            alimentam o resumo e o mapa mental personalizados.
+          </p>
+        </div>
+
+        <article class="general-notes card">
+          <label for="general-notes">Anotações gerais</label>
+
+          <textarea
+            id="general-notes"
+            class="note-field"
+            data-note-id="general"
+            rows="6"
+            placeholder="Registre suas ideias principais sobre dança, corporeidade, carimbó, identidade, memória e patrimônio cultural..."
+          ></textarea>
+
+          <p id="general-save-status" class="save-status">
+            Ainda não há alterações recentes.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="conteudo" class="section section-muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Explore o conteúdo</p>
+          <h2>Conceitos essenciais para o ENEM</h2>
+          <p>
+            Leia os textos, relacione os conceitos e registre suas
+            interpretações nos campos de anotação.
+          </p>
+        </div>
+
+        <div class="content-grid">
+          <article class="content-card">
+            <span class="card-number">01</span>
+
+            <h3>O movimento como linguagem</h3>
+
+            <p>
+              Muitos estilos de dança produzem movimentos característicos.
+              Esses movimentos podem ser comparados às palavras de uma obra
+              escrita, pois integram uma composição e carregam significados.
+            </p>
+
+            <p>
+              O movimento não é uma ferramenta neutra. Ele é construído na
+              cultura, nos hábitos, nas práticas ritualísticas, nos
+              comportamentos e nas formas de trabalho.
+            </p>
+
+            <div class="concept-strip">
+              <span>Movimento</span>
+              <span>Cultura</span>
+              <span>Significado</span>
+              <span>Práticas sociais</span>
+            </div>
+
+            <div class="exam-tip">
+              <strong>Para o ENEM:</strong>
+              a linguagem corporal produz sentidos porque está relacionada
+              às experiências históricas e sociais dos grupos.
+            </div>
+
+            <label for="note-introducao">
+              Anotações sobre movimento e linguagem
+            </label>
+
+            <textarea
+              id="note-introducao"
+              class="note-field"
+              data-note-id="introducao"
+              rows="5"
+              placeholder="Explique com suas palavras por que o movimento não é neutro..."
+            ></textarea>
+          </article>
+
+          <article class="content-card">
+            <span class="card-number">02</span>
+
+            <h3>Corporeidade</h3>
+
+            <p>
+              Corporeidade é a maneira pela qual o cérebro reconhece e utiliza
+              o corpo como instrumento de relação com o mundo.
+            </p>
+
+            <p>
+              O corpo e o cérebro atuam em constante sinergia. Reflexos,
+              atitudes e movimentos relacionam-se com o ambiente, com outras
+              pessoas e com a própria experiência do indivíduo.
+            </p>
+
+            <div class="flow-diagram">
+              <span>Corpo</span>
+              <b>→</b>
+              <span>Cérebro</span>
+              <b>→</b>
+              <span>Mundo</span>
+              <b>→</b>
+              <span>Experiência</span>
+            </div>
+
+            <label for="note-corporeidade">
+              Anotações sobre corporeidade
+            </label>
+
+            <textarea
+              id="note-corporeidade"
+              class="note-field"
+              data-note-id="corporeidade"
+              rows="5"
+              placeholder="Como a corporeidade supera a separação entre corpo e mente?"
+            ></textarea>
+          </article>
+
+          <article class="content-card">
+            <span class="card-number">03</span>
+
+            <h3>O carimbó e a identidade regional</h3>
+
+            <p>
+              O carimbó surgiu no estado do Pará, na região Norte, e recebeu
+              influências das danças e dos costumes indígenas.
+            </p>
+
+            <p>
+              Seu nome faz referência ao curimbó, tambor artesanal indígena
+              utilizado em apresentações artísticas e religiosas.
+            </p>
+
+            <div class="concept-strip">
+              <span>Pará</span>
+              <span>Região Norte</span>
+              <span>Curimbó</span>
+              <span>Memória</span>
+              <span>Identidade</span>
+            </div>
+
+            <label for="note-carimbo">
+              Anotações sobre o carimbó
+            </label>
+
+            <textarea
+              id="note-carimbo"
+              class="note-field"
+              data-note-id="carimbo"
+              rows="5"
+              placeholder="Registre as origens e influências do carimbó..."
+            ></textarea>
+          </article>
+
+          <article class="content-card">
+            <span class="card-number">04</span>
+
+            <h3>Natureza transformada em dança</h3>
+
+            <p>
+              As danças da “Pomba com o Gavião” e da “Onça” representam
+              situações de conflito, caça e perseguição entre animais.
+            </p>
+
+            <p>
+              Essas narrativas transformam elementos da fauna regional em
+              performances lúdicas, dramáticas e simbólicas.
+            </p>
+
+            <div class="concept-strip">
+              <span>Fauna</span>
+              <span>Caça</span>
+              <span>Personagens</span>
+              <span>Encenação</span>
+            </div>
+
+            <label for="note-natureza">
+              Anotações sobre natureza e dança
+            </label>
+
+            <textarea
+              id="note-natureza"
+              class="note-field"
+              data-note-id="natureza"
+              rows="5"
+              placeholder="Como a dança representa relações entre seres humanos e animais?"
+            ></textarea>
+          </article>
+
+          <article class="content-card">
+            <span class="card-number">05</span>
+
+            <h3>Trajes e pertencimento comunitário</h3>
+
+            <p>
+              Em Santarém Novo, o uso de paletó e gravata pelos homens e de
+              blusas rendadas com saias longas pelas mulheres funciona como
+              condição de participação no salão.
+            </p>
+
+            <p>
+              O traje ultrapassa sua função prática e torna-se instrumento de
+              legitimação identitária da comunidade.
+            </p>
+
+            <div class="concept-strip">
+              <span>Vestuário</span>
+              <span>Pertencimento</span>
+              <span>Legitimação</span>
+              <span>Identidade local</span>
+            </div>
+
+            <label for="note-trajes">
+              Anotações sobre trajes e identidade
+            </label>
+
+            <textarea
+              id="note-trajes"
+              class="note-field"
+              data-note-id="trajes"
+              rows="5"
+              placeholder="Explique por que o traje é mais do que uma roupa..."
+            ></textarea>
+          </article>
+
+          <article class="content-card">
+            <span class="card-number">06</span>
+
+            <h3>Tradição e transformação</h3>
+
+            <p>
+              Em Marapanim, a exigência de trajes formais estava ligada à
+              atuação de Manoel “Inspetor” e deixou de existir após sua morte.
+            </p>
+
+            <p>
+              Em Santarém Novo, a mesma prática tornou-se permanente,
+              especialmente nos festejos de São Benedito.
+            </p>
+
+            <div class="exam-tip">
+              <strong>Ideia-chave:</strong>
+              o patrimônio imaterial não é imóvel. Ele se reconfigura conforme
+              as memórias locais, as lideranças e os pactos coletivos.
+            </div>
+
+            <label for="note-tradicao">
+              Anotações sobre tradição e mudança
+            </label>
+
+            <textarea
+              id="note-tradicao"
+              class="note-field"
+              data-note-id="tradicao"
+              rows="5"
+              placeholder="Compare Marapanim e Santarém Novo..."
+            ></textarea>
+          </article>
+
+          <article class="content-card content-card-wide">
+            <span class="card-number">07</span>
+
+            <h3>Território, memória e linguagem corporal</h3>
+
+            <p>
+              As formas de praticar o carimbó variam conforme o lugar. Essas
+              variações relacionam-se ao ambiente, à configuração socioespacial
+              e aos acontecimentos guardados na memória coletiva.
+            </p>
+
+            <p>
+              Assim, as regras que hoje são consideradas tradições revelam
+              como a gestualidade corporal expressa vivências ambientais e
+              acontecimentos históricos de uma comunidade.
+            </p>
+
+            <label for="note-territorio">
+              Anotações sobre território e memória
+            </label>
+
+            <textarea
+              id="note-territorio"
+              class="note-field"
+              data-note-id="territorio"
+              rows="5"
+              placeholder="Como o território influencia a dança praticada?"
+            ></textarea>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="desafio" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Hora do desafio</p>
+          <h2>Questões autorais em estilo ENEM</h2>
+          <p>
+            As questões abordam linguagem corporal, corporeidade, carimbó,
+            patrimônio imaterial, identidade e memória coletiva.
+          </p>
+        </div>
+
+        <div id="quiz-container" class="quiz-container"></div>
+
+        <div class="quiz-actions">
+          <button id="finish-quiz" class="button button-primary" type="button">
+            Corrigir desafio
+          </button>
+
+          <button id="reset-quiz" class="button button-secondary" type="button">
+            Limpar respostas
+          </button>
+        </div>
+
+        <div id="quiz-result" class="quiz-result" hidden></div>
+      </div>
+    </section>
+
+    <section id="resultado" class="section section-muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Seu percurso</p>
+          <h2>Síntese personalizada</h2>
+          <p>
+            Gere um resumo e um mapa mental com base nas suas anotações,
+            respostas e pontos que precisam de revisão.
+          </p>
+        </div>
+
+        <div class="result-actions">
+          <button id="generate-summary" class="button button-primary" type="button">
+            Gerar resumo e mapa
+          </button>
+
+          <button id="print-page" class="button button-secondary" type="button">
+            Imprimir
+          </button>
+
+          <button id="copy-notes" class="button button-secondary" type="button">
+            Copiar anotações
+          </button>
+
+          <button id="share-whatsapp" class="button button-secondary" type="button">
+            Enviar por WhatsApp
+          </button>
+
+          <button id="send-email" class="button button-secondary" type="button">
+            Enviar por e-mail
+          </button>
+        </div>
+
+        <article class="summary-card">
+          <h3>Resumo da análise</h3>
+          <div id="summary-content">
+            <p>
+              O resumo aparecerá aqui depois que você preencher suas anotações
+              ou responder ao desafio.
+            </p>
+          </div>
+        </article>
+
+        <article class="mind-map-card">
+          <div class="mind-map-heading">
+            <div>
+              <h3>Mapa mental personalizado</h3>
+              <p>
+                Clique em um nó para visualizar seu conteúdo completo.
+              </p>
+            </div>
+
+            <div class="map-legend" aria-label="Legenda do mapa">
+              <span>
+                <i class="legend-note"></i>
+                Anotação
+              </span>
+
+              <span>
+                <i class="legend-correct"></i>
+                Acerto
+              </span>
+
+              <span>
+                <i class="legend-review"></i>
+                Revisão
+              </span>
+            </div>
+          </div>
+
+          <div class="map-wrapper">
+            <svg
+              id="mind-map"
+              viewBox="0 0 1100 720"
+              role="img"
+              aria-label="Mapa mental sobre dança, corporeidade e carimbó"
+            ></svg>
+          </div>
+
+          <div id="map-accessible-list" class="accessible-map-list">
+            <h4>Versão textual do mapa</h4>
+            <p>Gere o mapa para visualizar a versão textual.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="map-dialog">
+    <button
+      id="close-dialog"
+      class="dialog-close"
+      type="button"
+      aria-label="Fechar janela"
+    >
+      ×
+    </button>
+
+    <h2 id="dialog-title">Detalhe do mapa</h2>
+    <p id="dialog-content"></p>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Material autoral de estudo sobre dança, corporeidade e carimbó.
+      </p>
+
+      <p>
+        Valorize os contextos, as memórias e as comunidades que mantêm
+        as manifestações culturais vivas.
+      </p>
+
+      <p>
+        Desenvolvido com carinho para o Profe. Gabe :)
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
